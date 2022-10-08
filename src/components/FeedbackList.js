@@ -12,12 +12,11 @@ const {feedback} = useContext(FeedbackContext);
   }
   return (
     <div className='feedback-list'>FeedbackList
+  
     {feedback.map((item) => (
-      <FeedbackItem 
-      key={item.id} 
-      item={item} 
-      />
+            <FeedbackItem key={item.id}item={item}/>
   ))}
+  
   </div>
   )
 }
