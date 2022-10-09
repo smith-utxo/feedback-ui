@@ -1,10 +1,7 @@
 // App.js is the 'Root Component' or highest level parent component
-import React, { useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'
 import Header from './components/Header';
-import FeedbackData from './data/FeedbackData';
 import FeedbackList from './components/FeedbackList';
-import Card from './components/shared/card';
 import FeedbackStats from './components/FeedbackStats';
 import FeedbackForm from './components/FeedbackForm';
 import { FeedbackProvider } from './context/FeedbackContext';
